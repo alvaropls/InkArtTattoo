@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context=".AdminUser">
+
+    <TextView
+        android:id="@+id/tv_adminUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/indigo_daisy"
+        android:text="@string/tv_admuser"
+        android:textColor="#FFEB3B"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/bt_consultarUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_adminUser"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/boton_personalizado"
+        android:onClick="consultaBD"
+        android:text="@string/bt_consulta"
+        android:textColor="@android:color/white" />
+
+    <ListView
+        android:id="@+id/listaConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:layout_below="@id/bt_consultarUser"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bt_volverMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listaConsulta"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/boton_personalizado"
+        android:onClick="volver"
+        android:text="@string/bt_atras"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">InkArtTattoo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="password">Contraseña</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Ink Art Tattoo Studio</string>
+    <string name="register">Registro</string>
+    <string name="re_type_password">Confirma la contraseña</string>
+    <string name="your_name">Nombre completo</string>
+    <string name="tv_admuser">Administrador Ink Art</string>
+    <string name="bt_consulta">Ver usuarios</string>
+    <string name="bt_atras">Regresar</string>
+    <string name="tv_mostrarDatosConsulta"></string>
+    <string name="tv_plebUser">Bienvenido a Ink Art</string>
+    <string name="bt_pedirCita">Pedir cita</string>
+    <string name="tv_tituloPedirCita">Pedir Cita</string>
+    <string name="et_numeroTlfn">Teléfono</string>
+    <string name="et_zona">Zona a tatuar</string>
+    <string name="bt_confirmarCita">Confirmar</string>
+    <string name="et_sizeTattoo">Tamaño del tatuaje (Grande, mediano, pequeño)</string>
+    <string name="et_designTatoo">Breve descripción del diseño</string>
+</resources>

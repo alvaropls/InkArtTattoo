@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context=".NormalUser">
+
+
+    <TextView
+        android:id="@+id/textView_PlebUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/indigo_daisy"
+        android:text="@string/tv_plebUser"
+        android:textColor="#FFEB3B"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/iv_tattoo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_PlebUser"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/tatuaje" />
+
+    <Button
+        android:id="@+id/btn_pedirCitaMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_tattoo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/boton_personalizado"
+        android:onClick="irMenuCita"
+        android:text="@string/bt_pedirCita"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/bt_volverMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_pedirCitaMenu"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/boton_personalizado"
+        android:onClick="volver"
+        android:text="@string/bt_atras"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
