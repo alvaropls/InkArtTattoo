@@ -18,3 +18,5 @@ The administrator user must log into the application with their administrator da
 
 Datos cuenta administrador: admin@inkart.com - admin
 Datos cuenta usuario: pleb@pleb.com - 1234
+
+Vídeo de la presentación: https://youtu.be/Id42uEDj2RM 
